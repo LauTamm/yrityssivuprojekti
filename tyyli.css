@@ -1,0 +1,156 @@
+
+header{
+    width:100%;
+    background-color:#B4BEC9;
+    padding-top:16px;
+    
+}
+
+svg{
+    width:15%;
+    max-width:220px;
+    min-width:100px; 
+    padding: 2%;   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hamburgerButton{
+    display:block;
+    width:40px;
+    height:40px;
+    background-image: url("./media/icons8-hamburger-menu-24.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:10px;
+    right: 10px;
+    z-index:2;    
+}
+
+nav {
+    width:100%;
+    height:280px;
+    background-color:#002333;
+    color:white;
+    position:absolute;
+    right:0;
+    top:0;
+    }
+
+nav ul {
+    list-style-type: none;
+    width:80%; 
+    margin:25px;
+    padding:0;
+    border: solid 5px #B4BEC9;
+}
+
+nav ul li {
+    font-size:1.5em;    
+    padding:10px;
+    
+}
+
+
+
+img{
+    width:80%;
+    margin:10%;
+}
+
+#textField{
+    display: block;
+    width:90%;
+    margin-left: 5%;
+    background-color: #002333;
+    color:#FFFFFF;
+    padding:5%;
+}
+
+#bottomBar{
+    display: block;
+    width:90%;
+    height:180px;
+    margin: 5%;
+    background-color: #DEEFE7;
+    color:#002333;
+    padding-left: 2%;
+}
+.hamburgerList{
+    display: none;
+}
+
+.clearFloats{
+    clear:both;
+}
+
+@media (min-width: 750px) {
+
+    
+
+    .hamburgerButton{
+        display:none;
+        }
+
+    #textField{
+        float: left;
+        width: 40%;
+        margin-top:4%;
+        padding:3%;
+    }
+
+    #picture{
+        float: left;
+        width: 40%;
+        margin:5px;
+        
+    }
+
+    #bottomBar{
+        float:left;
+        display: block;
+        width:20%;
+        height:180px;
+        margin: 5%;
+        background-color: #DEEFE7;
+        color:#002333;
+        padding-left: 2%;
+
+    }
+
+    nav {
+        width:100%;
+        height:120px;
+        background-color:#DEEFE7;
+        color:#002333;
+        position:static;
+       
+        }
+
+    nav ul {
+        width:600px;
+        height:30%;
+        padding:0;
+        margin:0 auto;
+        text-align:center;
+        padding-top:20px;
+        border:none;
+    }
+    
+    nav ul li {
+        float:left;
+        width:130px;
+        font-size:1.4em;
+        margin-left: 20px;
+
+    }
+
+    .hamburgerList{
+            display:block;
+    }
+        
+}
