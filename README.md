@@ -1,3 +1,3 @@
 # yrityssivuprojekti
 
-Html/CSS/JavaScript-peruskurssin lopputyö
+Html/CSS-peruskurssin lopputyö
